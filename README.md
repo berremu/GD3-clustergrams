@@ -46,6 +46,7 @@ install.packages("dplyr")
 install.packages("readxl")
 ```r
 
+
 ## Citation & Thesis Information
 
 This repository was created to support the bachelor's thesis titled:
