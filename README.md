@@ -44,20 +44,15 @@ install.packages("tidyverse")
 install.packages("pheatmap")
 install.packages("dplyr")
 install.packages("readxl")
-
----
+```r
 
 ## Citation & Thesis Information
 
 This repository was created to support the bachelor's thesis titled:
 
-""
- 
+**Transcriptomic-Guided Drug Repositioning in Gaucher Disease Type 3**
+
 Submitted to: Department of Molecular Biology and Genetics  
 Istanbul Medeniyet University, 2025
 
-If you use this code or data, please cite or reference this thesis accordingly.
-
 This work was completed as part of an undergraduate graduation project and is not intended for clinical decision-making without further validation.
-
-
