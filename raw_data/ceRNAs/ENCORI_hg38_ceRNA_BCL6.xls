@@ -1,0 +1,7 @@
+ #please cite:
+#1.Zhou KR, Huang JH, Liu S, Zheng WJ, Liu SR, et al. An Encyclopedic Regulatory and Functional Atlas of RNA Interactomes. (Manuscript submitted)
+#2.Li JH, et al.starBase v2.0: decoding miRNA-ceRNA, miRNA-ncRNA and protein-RNA interaction networks from large-scale CLIP-Seq data , Nucleic Acids Res. 2014 Jan;42:D92-7.
+geneID	geneName	geneType	ceRNAid	ceRNAname	ceRNAgeneType	hitNum	pval	fdr	pancancerNum
+ENSG00000113916	BCL6	protein_coding	ENSG00000109756	RAPGEF2	protein_coding	20	1.27842e-4	3.83526e-4	22
+ENSG00000113916	BCL6	protein_coding	ENSG00000069667	RORA	protein_coding	18	2.54259e-4	3.83526e-4	27
+ENSG00000113916	BCL6	protein_coding	ENSG00000066739	ATG2B	protein_coding	10	9.15655e-4	9.15655e-4	24
