@@ -45,6 +45,8 @@ install.packages("pheatmap")
 install.packages("dplyr")
 install.packages("readxl")
 
+---
+
 ## Citation & Thesis Information
 
 This repository was created to support the bachelor's thesis titled:
