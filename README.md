@@ -53,7 +53,8 @@ This repository was created to support the bachelor's thesis titled:
 
 **Transcriptomic-Guided Drug Repositioning in Gaucher Disease Type 3**
 
-Submitted to: Department of Molecular Biology and Genetics  
+Submitted to: Faculty of Engineering and Natural Sciences,  
+Department of Molecular Biology and Genetics,  
 Istanbul Medeniyet University, 2025
 
 This work was completed as part of an undergraduate graduation project and is not intended for clinical decision-making without further validation.
