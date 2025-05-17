@@ -1,27 +1,61 @@
 # GD3-clustergrams
-R scripts for clustergram visualizations in Gaucher Disease Type 3 study.
 
-# GD3 Clustergram Scripts
+This repository contains R scripts, processed datasets, and resulting clustergram visualizations used in the Gaucher Disease Type 3 (GD3) transcriptomic analysis.
 
-This repository contains R scripts used to generate clustergram heatmaps for key biomolecules (proteins, miRNAs, transcription factors, and ceRNAs) involved in Gaucher Disease Type 3 (GD3). These visualizations were part of the transcriptomic analysis pipeline used in the associated undergraduate thesis project.
+The purpose of this repository is to ensure reproducibility and provide transparency for the cluster-based regulatory network exploration involving biomarkers, proteins, transcription factors, miRNAs, and ceRNAs.
 
-## Contents
+---
 
-- `clustergram_proteins.R`: Generates heatmap and dendrogram of key proteins and biomarkers.
-- `clustergram_miRNAs.R`: Visualizes regulatory relationships between DEGs and miRNAs.
-- `clustergram_ceRNAs.R`: Shows lncRNA/ceRNA clustering.
-- `clustergram_TFs.R`: Visualizes transcription factors interacting with GD3 biomarkers.
+## 📁 Repository Structure
 
-## Requirements
+- `r_scripts/`:  
+  R scripts used to generate the clustergram heatmaps.
 
-- R (>= 4.0.0)
-- Packages: `pheatmap`, `dplyr`, `readxl`, and `tidyverse`
+- `input_data/`:  
+  Excel files (cleaned) used as input for clustergram visualization.
 
-## Citation
+- `raw_data/`:  
+  Raw unprocessed files before pivoting or transformation.
 
-This code was used in support of the thesis titled:
-“Transcriptomic-Guided Drug Repositioning in Gaucher Disease Type 3”
+- `figures/`:  
+  PNG clustergram heatmaps created using `pheatmap` in R.
 
-Author: Berrenur İnandı
-Institution: Istanbul Medeniyet University  
-Year: 2025
+---
+
+## Clustergram Types
+
+Clustergrams were generated for:
+
+- Proteins and Biomarkers
+- ceRNAs and Biomarkers
+- Transcription Factors and Biomarkers
+- miRNAs and Biomarkers
+
+These heatmaps visualize regulatory interactions and clustering patterns of key GD3-specific elements, aiding interpretation of transcriptomic behavior.
+
+---
+
+## R Packages Required
+
+To run the scripts, make sure to install and load the following packages:
+
+```r
+install.packages("tidyverse")
+install.packages("pheatmap")
+install.packages("dplyr")
+install.packages("readxl")
+
+## Citation & Thesis Information
+
+This repository was created to support the bachelor's thesis titled:
+
+""
+ 
+Submitted to: Department of Molecular Biology and Genetics  
+Istanbul Medeniyet University, 2025
+
+If you use this code or data, please cite or reference this thesis accordingly.
+
+This work was completed as part of an undergraduate graduation project and is not intended for clinical decision-making without further validation.
+
+
