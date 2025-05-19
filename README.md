@@ -51,7 +51,7 @@ install.packages("readxl")
 
 This repository was created to support the bachelor's thesis titled:
 
-**Transcriptomic-Guided Drug Repositioning in Gaucher Disease Type 3**
+INTEGRATED TRANSCRIPTOMIC AND NETWORK-BASED ANALYSIS OF GAUCHER DISEASE TYPE 3 REVEALS KEY REGULATORS AND DRUG REPOSITIONING OPPORTUNITIES
 
 Submitted to: Faculty of Engineering and Natural Sciences,  
 Department of Molecular Biology and Genetics,  
